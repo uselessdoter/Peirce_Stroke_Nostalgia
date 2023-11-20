@@ -1,4 +1,4 @@
-﻿# Вы можете расположить сценарий своей игры в этом файле.
+# Вы можете расположить сценарий своей игры в этом файле.
 
 # Определение персонажей игры.
 
@@ -6,6 +6,7 @@ define n = Character('', color="#c8ffc8")
 define I = Character('Илья', color="#c8ffc8")
 define k = Character('Кашкин', color="#c8ffc8")
 define c = Character('Местный житель', color="#c8ffc8")
+define Door = Character('Голос из-за двери', color="#c8ffc8")
 
 # Вместо использования оператора image можете просто
 # складывать все ваши файлы изображений в папку images.
@@ -16,11 +17,12 @@ define c = Character('Местный житель', color="#c8ffc8")
 label start:
 
     scene bg tat
+    play music maintheme volume 0.4
 
-    show typical heroine
-
+    show bg room
     I "Ну-с, попробуем"
     #*делает свои магические штуки, перемещается*
+    scene bg bank
     n "(Евгений Кашкин был первым губернатором города)"
     k "Дамы и господа, уважаемые горожане и почтенные гости! "
 

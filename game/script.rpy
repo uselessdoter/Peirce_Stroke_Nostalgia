@@ -15,9 +15,10 @@ define Door = Character('Голос из-за двери', color="#c8ffc8")
 
 # Игра начинается здесь:
 label start:
-
+    play music "maintheme.mp3" volume 0.4
     scene bg tat
-    play music maintheme volume 0.4
+
+    
 
     show bg room
     I "Ну-с, попробуем"

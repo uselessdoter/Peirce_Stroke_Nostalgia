@@ -1,7 +1,8 @@
 # Вы можете расположить сценарий своей игры в этом файле.
 
 # Определение персонажей игры.
-
+define P = Character("Пермь", color="#c8ffc8")
+define Pq = Character("??", color="#c8ffc8")
 define n = Character('', color="#c8ffc8")
 define I = Character('Илья', color="#c8ffc8")
 define k = Character('Кашкин', color="#c8ffc8")

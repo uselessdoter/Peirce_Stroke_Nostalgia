@@ -36,7 +36,7 @@ label start:
         xalign 0.25
         yalign 0.20
     stop music fadeout 1.0
-    play music "maintheme.mp3" volume 0.4 fadein 1.0
+    play music "maintheme.mp3" volume 0.4 fadein 2.0
     I "Она молодая девушка, с которой можно много всего обсудить..."
     I "Кажется, будто она вышла с картины известного художника..."
     show black with dissolve
@@ -53,7 +53,7 @@ label start:
 
     #*делает свои магические штуки, перемещается*
     stop music fadeout 1.0
-    play music "universal.mp3" volume 0.4 fadein 1.0
+    play music "universal.mp3" volume 0.4 fadein 2.0
     scene bg bank with dissolve
     k "Дамы и господа, уважаемые горожане и почтенные гости! "
 
@@ -71,7 +71,7 @@ label start:
     I "А остаться хочется, интересно..."
     I "Пойду дальше, там должно найтись где погреться, там и людей поспрашиваю..."
     stop music fadeout 1.0
-    play music "monandthink.mp3" volume 0.4 fadein 1.0
+    play music "monandthink.mp3" volume 0.4 fadein 2.0
     I "На набережной и правда оказались смоляные бочки для таких же замерзших как и я"
 
     c "Да-а-а, легковато ты оделся для такой погоды"
@@ -82,7 +82,7 @@ label start:
     c "Ну, я, пожалуй, счастлив, праздник отличный, заняться есть чем"
     c "И сегодня он по-видимому заканчиваться не собирается...."
     stop music fadeout 1.0
-    play music "universal.mp3" volume 0.4 fadein 1.0
+    play music "universal.mp3" volume 0.4 fadein 2.0
     I "Так я опросил еще несколько человек"
     I "А ближе к ночи повсюду зажглись фонари, их было великое множество, город засиял"
     I "А когда запустили фейерверки, тысячи ракет, осветилось еще и небо"
@@ -98,7 +98,7 @@ label start:
     show black with dissolve
     scene bg room with dissolve
     stop music fadeout 1.0
-    play music "monandthink.mp3" volume 0.4 fadein 1.0
+    play music "monandthink.mp3" volume 0.4 fadein 2.0
     I "Я смотрю на исписанные страницы своего блокнота"
     I "моя курсовая будет действительно необычной"
     I "В ней будет отражено, в том числе, действительное отношение людей к событиям"
@@ -112,7 +112,7 @@ label start:
     I "Настоящей...?"
     scene black with dissolve
     stop music fadeout 1.0
-    play music "maintheme.mp3" volume 0.4 fadein 1.0
+    play music "maintheme.mp3" volume 0.4 fadein 2.0
     I "Продирая глаза я встаю. Здравствуй, новый день!"
 
 
@@ -139,7 +139,7 @@ label start:
     I "Перемещение"
 
     stop music fadeout 1.0
-    play music "universal.mp3" volume 0.4 fadein 1.0
+    play music "universal.mp3" volume 0.4 fadein 2.0
     scene bg fsb with dissolve
     I "И вот я здесь!"
     I "Странно, вроде здание изначально задумывалось синим...."
@@ -148,7 +148,7 @@ label start:
     n "Тук-тук"
 
     stop music fadeout 1.0
-    play music "monandthink.mp3" volume 0.4 fadein 1.0
+    play music "monandthink.mp3" volume 0.4 fadein 2.0
 
     Door "Кто там?"
     I "Черт, а что сказать я и не подумал."
@@ -162,7 +162,7 @@ label start:
     I "Что ж, обидно, ну хотя бы послоняюсь вокруг, как и хотел, архитектуру рассмотрю"
 
     stop music fadeout 1.0
-    play music "universal.mp3" volume 0.4 fadein 1.0
+    play music "universal.mp3" volume 0.4 fadein 2.0
 
     I "Я шел по улице и оглядывался на здания вокруг меня"
     scene bg running with dissolve
@@ -179,7 +179,7 @@ label start:
     I "Загляделась на что-то и, вот, уже у вас на рука…"
 
     stop music fadeout 1.0
-    play music "monandthink.mp3" volume 0.4 fadein 1.0
+    play music "monandthink.mp3" volume 0.4 fadein 2.0
     
     I "Она начала пристально на меня глядеть, кажется, мы уже встречались…"
     I "Стоп…"

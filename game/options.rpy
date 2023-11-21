@@ -45,7 +45,7 @@ define build.name = "Nostalgia"
 ## Эти три переменные управляют, среди прочего, тем, какие микшеры показываются
 ## игроку по умолчанию. Установка одной из них в False скроет соответствующий
 ## микшер.
-
+define config.main_menu_music = "universal.mp3"
 define config.has_sound = True
 define config.has_music = True
 define config.has_voice = True

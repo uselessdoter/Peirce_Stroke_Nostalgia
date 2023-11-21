@@ -225,9 +225,9 @@ label start:
     I "Погоди!"
     hide run2
     show run with dissolve
-    show hand1:
-        xalign 0.3
-        yalign 0.6
+    show hand:
+        xalign 0.5
+        yalign 0.5
     "Я касаюсь кончиками пальцев ее руки"
 #перемещенеие вреальность
     scene black with dissolve
